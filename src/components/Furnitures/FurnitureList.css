@@ -1,0 +1,47 @@
+.furniture-list {
+  width: 100rem;
+  max-width: 80%;
+  margin: auto;
+}
+
+.furniture-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: .5rem;
+}
+
+.furniture-list li {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
+}
+
+.furniture-title {
+  display: flex;
+}
+
+.furniture-price {
+  margin: auto 0 auto auto;
+  color: #ffae3f;
+  font-weight: bold;
+}
+
+.furniture-styles {
+  margin: 20px 0;
+}
+
+.furniture-styles strong {
+  margin: auto 10px auto auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ccc;
+}
+
+.furniture-time {
+  text-align: end;
+  text-decoration: underline;
+  font-weight: bolder;
+}
